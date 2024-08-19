@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hash Comparisons</title>
@@ -9,13 +10,15 @@
       width: 70%;
       text-transform: lowercase;
     }
+
     label {
       font-size: 1.5rem;
       text-transform: lowercase;
     }
+
     button {
       background-color: orange;
-      border: none;
+      f border: none;
       color: white;
       padding: 15px 32px;
       text-align: center;
@@ -23,6 +26,7 @@
       display: inline-block;
       font-size: 16px;
     }
+
     #result {
       font-size: 1.5rem;
     }
@@ -48,30 +52,47 @@
     }
   </script>
 </head>
+
 <body>
   <h1>Hash Comparisons</h1>
-  <h3>You can pick a correct SHA-256 value to hash1 by clicking a proper filename:</h3>
+  <h3>Pick the reference SHA-256 value to hash1 by clicking a proper filename below:</h3>
   <nav>
     <ul>
-      <li><a href="#" onclick="selectHash('3d4d6cd6c55bad214c185857eca778d69503b70da8b0525a6a9bd9e64ba502ae')">LE24SRV.ova</a></li>
-      <li><a href="#" onclick="selectHash('03E3BD673398D0F259D9FB8AB9C40774ECAD71BDBA4AB7217A5B09EEBE84A5E5')">DTLUBUNTU.ova</a></li>
+      <li><a href="#"
+          onclick="selectHash('3d4d6cd6c55bad214c185857eca778d69503b70da8b0525a6a9bd9e64ba502ae')">LE24SRV.ova</a></li>
+      <li><a href="#"
+          onclick="selectHash('03E3BD673398D0F259D9FB8AB9C40774ECAD71BDBA4AB7217A5B09EEBE84A5E5')">DTLUBUNTU.ova</a>
+      </li>
     </ul>
   </nav>
   <section>
     <label for="hash1">Hash 1:</label>
     <input type="text" class="hash-input" id="hash1" />
     <br />
-    <p>Paste the hash that you calculated to hash2</p>
+    <br />
+    <p>Calculate the sha-256 checksum(s) of your downloaded file(s) by issuing command:<br />
+      <b>certutil -hashfile *.ova sha256</b> in command prompt in the directory where you downloaded the files.<br>
+      Copy and paste the hash value to the field below.
+    </p>
     <label for="hash2">Hash 2:</label>
     <input type="text" class="hash-input" id="hash2" />
     <br />
-    <br />
-    <br />
+     <br />
     <button id="check" onclick="compareHashes()">Click to compare Hashes</button>
     <p id="result"></p>
   </section>
   <section>
-    <p>You can calculate sha-256 hash for a file in windows by using powershell and giving the command: get-filehash filename.<br>Copy the calculated hash and paste it to hash2 textbox. Note: Powershell is started from cmd prompt by typing powershell or just like any other program from start-menu</p>
+    
+    <h3> Why checksum comparisons are important? </h3></p>
+    <ul>
+      <li>Your downloaded file may get corrupted during download. Finding that before use saves you from a lot of harm.</li>
+      <li>Sometimes a file may be compromised by some third party. Wrong checksum reveals this.</li>
+    </ul>
+    <p><b>You can use this page to compare other files too by manually pasting the reference value to hash1</b></p>
+    
+
+    
   </section>
 </body>
+
 </html>
