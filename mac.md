@@ -1,6 +1,6 @@
 ## Linux server installation to VM in MAC 
 * Download UTM virtualization application [mac.getutm.app](https://mac.getutm.app)
-* Download Ubuntu server installation media [ubuntu.com.download/server](https://ubuntu.com/download/server)
+* Download **correct** Ubuntu server installation media [ubuntu.com.download/server](https://ubuntu.com/download/server)
   * the default Download if you have Intel based mac (x64/amd64)
   * this if you have [Arm-based architecture M1/M2](https://ubuntu.com/download/server/arm)
 
