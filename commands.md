@@ -1,5 +1,4 @@
 
-
 1. **List Directory Contents**:
    - Command: `ls`
    - Examples:
@@ -8,7 +7,7 @@
 
 2. **Make a Directory**:
    - Command: `mkdir`
-   - Example: `mkdir ~/workshops` (creates a directory under the home folder).
+   - Example: `mkdir ~/workshops` (creates a directory under the user's home folder).
 
 3. **Remove a File**:
    - Command: `rm`
@@ -22,6 +21,7 @@
 5. **Change to Another Directory**:
    - Command: `cd`
    - Example: `cd /etc`
+   - Note: `cd` alone changes to user's home directory. Equal to cd ~
 
 6. **Copy a File** (Copying a directory requires the `-r` option):
    - Command: `cp`
@@ -40,7 +40,7 @@
      - `chmod u-x,go-w mytext` _#take out x permission from user and w permission from group and others_
      - `chmod u+x,go+w mytext` _#opposite to the above_
 
-9. **Change File Ownership**:
+9. **Change File Ownership (root privileges needed)**:
    - Command: `chown user:group file`
    - Example: `chown :course /var/coursefiles`
 
@@ -68,14 +68,15 @@ _Versatile command the examples below shows just some uses._
    - Example: `grep -n 'Apache2 Default Page' /var/www/html/index.html`  
 Shows the line number where the text 'Apache2 Default Page' appears in the index.html file.  
    - Example: `ls /etc | grep -E "co?nf$"`  
- Shows the files in /etc directory that ends e.g. either cnf or conf. The output of ls command is directed (piped) to grep command.
+ Shows the files in /etc directory that ends e.g. either in cnf or conf. In this example the output of ls command is directed (piped) to grep command.
 
 5. **Find a File by Partial Name**:
    - Command: `find`
    - Example: `find /etc -name *conf`
    - Note: The `find` command is very versatile and can be used for various purposes, including executing a command for each found file.
 
-6. **Archiving**:
+6. **Archiving - tar command**:  
+The important feature of tar archiving command is that it preserves ownership and permissions information.  
    - Create an archive:
      - Command: `tar -czvf`
      - Example: `tar -czvf webbisivut.tz /var/www`
@@ -85,3 +86,4 @@ Shows the line number where the text 'Apache2 Default Page' appears in the index
    - Extract files from an archive (to the current directory):
      - Command: `tar -xzvf`
      - Example: `tar -xzvf webbisivut.tz`
+
