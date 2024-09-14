@@ -1,1 +1,1 @@
-## This repository contains some web-pages that are used in my courses
+## My files in this repository are accessible only by direct link
