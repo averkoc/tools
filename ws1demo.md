@@ -49,3 +49,6 @@ The following useful VirtualBox functionalities are also demonstrated:
 ## Course Solution
 - **AlpineDT with NAT adapter**: Can access others but cannot be accessed by others.
 - **Debian with host-only and NAT adapters**: Accessible from VMs with NAT and host-only adapters. Can access all others.
+
+----
+
