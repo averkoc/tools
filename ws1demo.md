@@ -1,6 +1,6 @@
 # VirtualBox Networking Alternatives
 
-See [VirtualBox networking](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/networkingdetails.html#network_nat) for more detail explanation.
+See [VirtualBox networking](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/networkingdetails.html) for more detail explanation.
 ## Overview
 This "workshop" involves a teacher-led demonstration focusing on the various networking options available in VirtualBox. Guest tools and VM cloning are also briefly presented. Note that other virtualization software offer similar functionalities.
 
