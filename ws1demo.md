@@ -52,6 +52,8 @@ The following useful VirtualBox functionalities are also demonstrated:
 
 ----
 
+![image](https://github.com/user-attachments/assets/c5572068-346f-4c39-aa11-d2c7f6f86c31)
+
 
 
 ![image](https://github.com/user-attachments/assets/50ed956f-95cb-45d1-87b7-499c0df91c6d)
