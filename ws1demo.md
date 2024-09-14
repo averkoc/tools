@@ -6,7 +6,7 @@ This "workshop" involves a teacher-led demonstration focusing on the various net
 ## Networking Alternatives in VirtualBox
 The following networking alternatives in VirtualBox will be demonstrated:
 
-- **NAT (Network Address Translation)**: The NAT adapter is the simplest way to access external networks from a VM. It allows the VM to access the internet and other external networks while preventing other computers and VMs accessing it.
+- **NAT (Network Address Translation)**: The NAT adapter is the simplest way to access external networks from a VM. It allows the VM to access the internet and other external networks while preventing other computers and VMs accessing it. A VM with NAT adapter can access also VMs that has Host-only adapter.
 - **Host-Only Networking**: The Host-Only adapter creates a network that is only accessible between the host and the VMs with a host-only adapter. This is useful for creating isolated test environments.
 - **Bridged Networking**: The Bridged adapter connects the VM directly to the physical network, making it appear as a separate physical device on the network.
 
