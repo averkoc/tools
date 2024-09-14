@@ -1,6 +1,5 @@
 # VirtualBox Networking Alternatives
 
-See [VirtualBox networking](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/networkingdetails.html) for more detail explanation.
 ## Overview
 This "workshop" involves a teacher-led demonstration focusing on the various networking options available in VirtualBox. Guest tools and VM cloning are also briefly presented. Note that other virtualization software offer similar functionalities.
 
@@ -47,9 +46,13 @@ The following useful VirtualBox functionalities are also demonstrated:
   - Acts like a physical computer in the local LAN.
   - Gets IP settings from the home router like the Windows PC.
 
+> See [VirtualBox networking](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/networkingdetails.html) for more detail explanation.
+
+
 ## Course Solution
 - **AlpineDT with NAT adapter**: Can access others but cannot be accessed by others.
 - **Debian with host-only and NAT adapters**: Accessible from VMs with NAT and host-only adapters. Can access all others.
+
 
 ----
 
