@@ -52,6 +52,10 @@ The following useful VirtualBox functionalities are also demonstrated:
 
 ----
 
+## Some screenclips - try to "guess" the configuration  
+
+Local LAN's IP-network address is: 192.168.10.0/24  
+
 ![image](https://github.com/user-attachments/assets/c5572068-346f-4c39-aa11-d2c7f6f86c31)
 
 
