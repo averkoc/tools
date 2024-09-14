@@ -1,7 +1,7 @@
 # VirtualBox Networking Alternatives
 
 ## Overview
-This workshop involves a teacher-led demonstration focusing on the various networking options available in VirtualBox. Guest tools and VM cloning are also briefly presented. Note that other virtualization software, such as VMware and Hyper-V, offer similar functionalities.
+This "workshop" involves a teacher-led demonstration focusing on the various networking options available in VirtualBox. Guest tools and VM cloning are also briefly presented. Note that other virtualization software offer similar functionalities.
 
 ## Networking Alternatives in VirtualBox
 The following networking alternatives in VirtualBox will be demonstrated:
