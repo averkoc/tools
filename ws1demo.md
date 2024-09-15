@@ -46,7 +46,7 @@ The following useful VirtualBox functionalities are also demonstrated:
   - Acts like a physical computer in the local LAN.
   - Gets IP settings from the home router like the Windows PC.
 
-> See [VirtualBox networking](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/networkingdetails.html) for more detail explanation about the different networking options.
+> See [VirtualBox networking](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/networkingdetails.html) for more detailed explanation about the different networking options.
 
 
 ## Course Solution
