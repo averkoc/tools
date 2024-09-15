@@ -29,4 +29,4 @@ These parallels help students understand how networking concepts in VirtualBox t
 : Oracle Blogs
 : Oracle Blogs  
 
-Copilot answer to my question "What VirtualBox networking options has one-to-one equivalents in cloud systems"
+> The above is Copilot's answer to my question "What VirtualBox networking options has one-to-one equivalents in cloud systems"
