@@ -12,6 +12,4 @@ I have a video in ItsLearning that shows how to install Ubuntu server with UTM.
   * If you have [Arm-based architecture M1/M2/M3](https://ubuntu.com/download/server/arm) this is ok
     *  Here is a [Youtube video](https://www.youtube.com/watch?v=JrNS3brSnmA) that shows how to install Ubuntu server into Mac M1/M2/M3. Note: The video shows also how to change the server into Desktop Ubuntu but don't do that part. The video is very similar to my video where I install Ubuntu server to Intel-based Mac - just the installation media is different.
 
-* Start UTM and create new Virtual Machine
- * See the video for future steps
-   
+
