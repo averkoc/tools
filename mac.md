@@ -9,7 +9,7 @@
 * Download **correct** Ubuntu server installation media from [ubuntu.com.download/server](https://ubuntu.com/download/server)
   * If you have Intel-based (x64/amd64) mac then the default download is ok [ubuntu.com.download/server](https://ubuntu.com/download/server).  
 I have a video in ItsLearning that shows how to install Ubuntu server with UTM.
-  * If you have [Arm-based architecture M1/M2/M3](https://ubuntu.com/download/server/arm) this is ok  
+  * Use [this for Arm-based architecture M1/M2/M3](https://ubuntu.com/download/server/arm) if you have Mac with Apple silicon.  
 Here is a [Youtube video](https://www.youtube.com/watch?v=JrNS3brSnmA) that shows how to install Ubuntu server into Mac M1/M2/M3. Note: The video shows also how to change the server into Desktop Ubuntu but don't do that part. The video is very similar to my video where I install Ubuntu server to Intel-based Mac - just the installation media is different.
 
 
