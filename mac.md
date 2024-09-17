@@ -1,4 +1,10 @@
-## Linux server installation to VM in MAC using UTM
+## Linux server installation to VM in MAC using UTM  
+Update: 17.9.24 The new VirtualBox 7.1 version supports both Arm and Intel based Macs
+
+
+
+----
+
 ### Get UTM virtualization application
 * Download UTM virtualization app from [mac.getutm.app](https://mac.getutm.app)  
   * To install it, open the downloaded file and click the arrow, see the picture below
