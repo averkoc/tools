@@ -1,5 +1,5 @@
 ## Linux server installation to VM in MAC using UTM  
-Update: 17.9.24 The new VirtualBox 7.1 version supports both Arm and Intel based Macs
+Update: 17.9.24 The new VirtualBox 7.1 version supports both Arm and Intel based Macs. 
 
 
 
