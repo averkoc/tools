@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# Author:SM
+# Comment:Intentionally obscure
+# Function: Verify exercise steps
 
 a=$(date)
 b=${a// /_}
