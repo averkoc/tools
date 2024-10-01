@@ -1,10 +1,21 @@
-#! /bin/bash
+#!/bin/bash
 # Author:SM
-# Function: produces a stamp that can be appended to a file
-# Intentionally a little bit obscure :)
-# 
+# Comment:Intentionally obscure
+# Function: Verify exercise steps
+
 a=$(date)
 b=${a// /_}
-c=$(./verify $b)
-d=$(./verify $USER)
-echo "$USER completed the step at:$a check:${c: -4} ${d: -4}"
+
+USER=$(whoami)
+
+if command -v md5 > /dev/null; then
+    # macOS
+    HASH1=$(echo -n "$USER" | md5)
+    HASH2=$(echo -n "$b" | md5)
+else
+    # Linux
+    HASH1=$(echo -n "$USER" | md5sum | awk '{print $1}')
+    HASH2=$(echo -n "$b" | md5sum | awk '{print $1}')
+fi
+
+echo "$USER completed the step at:$a check:${HASH2: -4} ${HASH1: -4}"
