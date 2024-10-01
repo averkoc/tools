@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author:SM
-# Comment:Intentionally obscure
 # Function: Verify exercise steps
+# Comment:Intentionally obscure
 
 a=$(date)
 b=${a// /_}
