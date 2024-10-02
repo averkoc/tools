@@ -8,10 +8,13 @@ usernames=("april" "may" "june" "july" "august")
 
 # Loop through each username
 for username in "${usernames[@]}"; do
-    # Remove the user and their home directory
-    sudo userdel -r "$username"
+    # Create the user
+    sudo useradd -m "$username"
     
-    echo "User $username and their home directory removed"
+    # Set the password to be the same as the username
+    echo "$username:$username" | sudo chpasswd
+    
+    echo "User $username created with password $username"
 done
 ````
 > And give a script that removes the created users and their home dirs
