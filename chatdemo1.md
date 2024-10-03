@@ -27,10 +27,10 @@ usernames=("april" "may" "june" "july" "august")
 
 for username in "${usernames[@]}"; do
     # Delete user files
-    sudo find / -user "$username" -exec rm -rf {} \;
+    # sudo find / -user "$username" -exec rm -rf {} \;
 
     # Delete the user account and home directory
     sudo userdel -r "$username"
 
-    echo "User $username and their files have been deleted"
+    echo "User $username and home/$username have been deleted"
 done
