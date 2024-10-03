@@ -9,14 +9,15 @@ usernames=("april" "may" "june" "july" "august")
 # Loop through each username
 for username in "${usernames[@]}"; do
     # Create the user
-    sudo useradd -m "$username"
-    
+    sudo adduser --disabled-password --gecos "" "$username"
+
     # Set the password to be the same as the username
     echo "$username:$username" | sudo chpasswd
-    
+
     echo "User $username created with password $username"
 done
 ````
+
 > And give a script that removes the created users and their home dirs
 ````bash
 #!/bin/bash
