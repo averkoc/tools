@@ -31,7 +31,9 @@
     <div class="temperature" id="outdoorTemp">Outdoor Temperature: </div>
 
     <script>
-        const client = mqtt.connect('wss://broker.emqx.io:8084/mqtt');
+        <! If hivemq broker then: 'wss://broker.hivemq.com:8884/mqtt'  --> 
+        <! If emqx broker then:'wss://broker.emqx.io:8084/mqtt'  --> 
+        const client = mqtt.connect('wss://broker.hivemq.com:8884/mqtt');
         const topics = [
             '/centrialinux/studentfirstname/indoors/',
             '/centrialinux/studentfirstname/outdoors/'
