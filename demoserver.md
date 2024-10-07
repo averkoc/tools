@@ -1,5 +1,6 @@
-## demoserver for WS1 network configuration alternatives
+## demoserver for WS1 network configuration alternatives (app2.py in demodep server)
 
+To run this in demodeb VM use script startdemo.sh in student homedir. It moves to demo directory and activates the virtualenv before issuing python3 app2.py 
 ````python
 from flask import Flask, request
 import subprocess
